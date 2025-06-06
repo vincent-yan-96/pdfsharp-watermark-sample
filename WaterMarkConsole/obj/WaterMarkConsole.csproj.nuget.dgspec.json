@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vmia/Development/pdfsharp-watermark-sample/WaterMarkConsole/WaterMarkConsole.csproj": {}
+  },
+  "projects": {
+    "/Users/vmia/Development/pdfsharp-watermark-sample/WaterMarkConsole/WaterMarkConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vmia/Development/pdfsharp-watermark-sample/WaterMarkConsole/WaterMarkConsole.csproj",
+        "projectName": "WaterMarkConsole",
+        "projectPath": "/Users/vmia/Development/pdfsharp-watermark-sample/WaterMarkConsole/WaterMarkConsole.csproj",
+        "packagesPath": "/Users/vmia/.nuget/packages/",
+        "outputPath": "/Users/vmia/Development/pdfsharp-watermark-sample/WaterMarkConsole/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vmia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://source.chunwo.com/api/v4/projects/341/packages/nuget/index.json": {},
+          "https://source.chunwo.com/api/v4/projects/341/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
